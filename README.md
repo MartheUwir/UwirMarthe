@@ -2,12 +2,15 @@
 
 
 
-- 🔭 I’m currently working on Photog
+- 🔭 I’m currently working on my own project
+- 
 - 🌱 I’m currently learning react and nodejs.
-- 👯 I’m looking to collaborate on Zamuka 
+- 👯 I’m looking to collaborate on different projects.
 - 🤔 I’m looking for help with Velocity x Documentation
 - 💬 Ask me about Any tech related stuff
-- 📫 How to reach me: https://www.linkedin.com/in/uwiringiyimana-marthe-a66326227/
-- 😄 Pronouns: She/is
-- ⚡ Fun fact: I like walking around if am code free
+- 📫 How to reach me:
+- LinkedIn:https://www.linkedin.com/in/uwiringiyimana-marthe-a66326227/
+- Gitlab: https://gitlab.com/MartheU
+- Twitter:https://twitter.com/uwiring59987168
+
 
