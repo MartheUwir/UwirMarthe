@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grades</title>
+    <script>
+        // function compute() {
+        //     let input = document.getElementsByClassName("earned")
+        //     let max = document.getElementsByClassName("max")
+        //     let div1 = document.getElementById("resultarea")
+        //     let container = document.createElement("div")
+        //     let space= document.createElement("br")
+        //     let total_max = 0
+        //     let percentage = 0
+        //     let total_inputs = 0
+        //     let percentnode = ""
+
+        //     for (let i = 0; i < input.length; i++) {
+        //         total_inputs += Number(input[i].value);
+        //         total_max += Number(max[i].value);
+        //     }
+        //     percentage = (total_inputs / total_max) * 100
+        //    // percentnode= document.createTextNode(String(percentage))
+
+        //     if (percentage >= 60) {
+
+        //         container.setAttribute("class", "pass")
+        //         container.append(percentage);
+        //         div1.appendChild(container).innerHTML= percentage;
+        //         container.appendChild(space)
+        //        // document.getElementById("resultarea").appendChild(document.createElement("br"));
+        //     } else if (percentage < 60) {
+        //         container.setAttribute("class", "fail")
+        //         container.append(percentage)
+        //         div1.appendChild(container).innerHTML= percentage
+        //         container.appendChild(space)
+        //        // document.getElementById("resultarea").appendChild(document.createElement("br"));
+        //     }
+        // } 
+        function myFunction() {
+            // Get the checkbox
+            var checkBox = document.getElementById("myCheck");
+            // Get the output text
+            var text = document.getElementById("text");
+          
+            // If the checkbox is checked, display the output text
+            if (checkBox.checked == true){
+              text.style.display = "block";
+            } else {
+              text.style.display = "none";
+            }
+          }
+    </script>
+    <style>
+        /* .pass {
+            background-color: #cfc;
+            font-weight: bold;
+        }
+
+        .fail {
+            background-color: #fcc;
+            font-style: italic;
+        } */
+    </style>
+</head>
+
+<body>
+    <!-- <h1>Grade Calculator</h1>
+    <div id="assignments">
+        <div class="hw">
+            HW1 <input type="text" class="earned" size="2">
+            / <input type="text" class="max" size="2">
+        </div>
+        <div class="hw">
+            HW2 <input type="text" class="earned" size="2">
+            / <input type="text" class="max" size="2">
+        </div>
+    </div>
+    <div class="hw">
+        HW3 <input type="text" class="earned" size="2">
+        / <input type="text" class="max" size="2">
+    </div>
+    <div>
+        <label> <input type="checkbox" id="curve">Curve +5</label>
+    </div>
+    <div id="resultarea">
+        <button id="compute" onclick="compute()">Compute!</button>
+        <button id="clear"> Clear</button>
+    </div> -->
+    Checkbox: <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+<p id="text" style="display:none">Checkbox is CHECKED!</p>
+</body>
+
+</html
