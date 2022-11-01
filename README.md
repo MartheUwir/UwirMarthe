@@ -6,7 +6,7 @@
 -  
 - 🌱 I’m currently learning react and nodejs.
 - 👯 I’m looking to collaborate on different projects.
-- 🤔 I’m looking for help with coding 
+- 🤔 I’m taking different online courses 
 - 💬 Ask me about Any tech related stuff
 - 📫 How to reach me:
 - 
